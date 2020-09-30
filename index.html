@@ -2,78 +2,208 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/main.css">
   
-  <title>Clipboard landing page</title>
+  <title>Fylo landing page</title>
+
+
 </head>
 <body>
-
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <a href="index.html" class="navbar-brand">
+      <img class="img-fluid logo" src="public/images/logo.svg" alt="Logo">
+    </a>
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Team</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Sign In</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   
-  <footer>
-    <br>
-    <br>
-  </footer>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-6 mx-auto text-center">
+          <img class="img-fluid" src="public/images/illustration-intro.png">
+          <h1>
+            All your files in one secure location, accessible anywhere.
+          </h1>
+  
+          <p>
+            Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with
+            friends family, and co-workers.
+          </p>
+  
+          <a class="btn btn-primary btn-lg" href="#">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 mb-3 text-center">
+        <svg class="lnr services-icon">
+          <use xlink:href="#lnr-laptop-phone"></use>
+        </svg>
+        <h5>Access your files, anywhere</h5>
+
+        <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 mb-3 text-center">
+        <svg class="lnr services-icon">
+          <use xlink:href="#lnr-lock"></use>
+        </svg>
+        <h5>Security you can trust</h5>
+
+        <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help
+          secure your files.</p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 mb-3 text-center">
+        <svg class="lnr services-icon">
+          <use xlink:href="#lnr-clock"></use>
+        </svg>
+        <h5>Real-time collaboration</h5>
+
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments
+          required.</p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 mb-3 text-center">
+        <svg class="lnr services-icon">
+          <use xlink:href="#lnr-file-empty"></use>
+        </svg>
+        <h5>Store any type of file</h5>
+
+        <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be
+          securely stored and shared.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+          <img class="img-fluid" src="public/images/illustration-stay-productive.png">
+      </div>
+      <div class="col-sm-12 col-md-6 my-auto">
+        <h1>Stay productive, wherever you are</h1>
+
+        <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments
+          required.</p>
+
+        <a class="streched-link" href="#">See how Fylo works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 mb-3">
+            <div class="card bg-quotes shadow">
+              <div class="card-body">
+                <div class="card-text">
+                  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                  become a well-oiled collaboration machine.
+                </div>
+              </div>
+              <small class="card-footer">
+                  <p>Satish Patel</p>
+                  <p>Founder & CEO, Huddle</p>
+              </small>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 mb-3">
+              <div class="card bg-quotes shadow">
+                <div class="card-body">
+                  <div class="card-text">
+                    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                    become a well-oiled collaboration machine.
+                  </div>
+                </div>
+                <small class="card-footer">
+                    <p>Bruce McKenzie</p>
+                    <p>Founder & CEO, Huddle</p>
+                </small>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 mb-3">
+                <div class="card bg-quotes shadow">
+                  <div class="card-body">
+                    <div class="card-text">
+                      Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                      become a well-oiled collaboration machine.
+                    </div>
+                  </div>
+                  <small class="card-footer">
+                      <p>Iva Boyd</p>
+                      <p>Founder & CEO, Huddle</p>
+                  </small>
+                </div>
+              </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- <section>
+    Get early access today
+
+    It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+    questions, our support team would be happy to help you.
+
+    Get Started For Free
+  </section>
+
+  <section>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+    dolore magna aliqua
+
+    +1-543-123-4567
+    example@fylo.com
+
+    About Us
+    Jobs
+    Press
+    Blog
+
+    Contact Us
+    Terms
+    Privacy
+  </section> -->
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="public/js/common.js"></script>
+    <script src="public/js/index.js"></script>
 </body>
 </html>
